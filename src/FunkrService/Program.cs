@@ -7,12 +7,10 @@ namespace ConsoleApplication
 
         public static void Main(string[] args)
         {
-            Funkr f = new Funkr();
+            FunkrService f = new FunkrService();
             Console.WriteLine("Hello World!");
             
-            f.PingJamBase();
-            
-            
+            f.PingJamBase();      
         }
     }
 }

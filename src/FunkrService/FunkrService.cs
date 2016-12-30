@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 
 namespace ConsoleApplication 
 {
-    public class Funkr
+    public class FunkrService
     {
 
         private static String JAMBASE_BASE_URL = "http://api.jambase.com/";
